@@ -2,5 +2,8 @@
 Fruit Plus
 ......................................*/
 document.getElementById("fruit-plus").addEventListener("click", function () {
-  console.log("click");
+  let fruitNumber = document.getElementById("fruit-number");
+  let fruitQuantity = fruitNumber.value;
+  fruitQuantity++;
+  fruitNumber.value = fruitQuantity;
 });
