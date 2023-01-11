@@ -26,6 +26,10 @@ function loadMilestone() {
 }
 function openMilestone(currentMilestone) {
   const currentPanel = currentMilestone.parentNode.nextElementSibling;
+  const showPanel = document.querySelector(".show");
+  if (!currentPanel.classList.contains("show") && showPanel) {
+    showPanel.classList.remove("show");
+  }
   currentPanel.classList.toggle("show");
 }
 loadMilestone();
