@@ -7,7 +7,7 @@
   --body-color: #0d0d0d;
 }
 body {
-  /* background-color: var(--body-color); */
+  background-color: var(--body-color);
 }
 
 .header {
@@ -52,4 +52,34 @@ body {
   right: 0;
   bottom: 0;
   max-width: 100%;
+}
+/* main Part */
+.main {
+  margin: 1em 0;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.cart {
+  width: 16.5em;
+  height: 20em;
+  border: 2px solid white;
+}
+.cart img {
+  max-width: 100%;
+}
+.cart-text {
+  margin-top: 0.5em;
+  color: white;
+  text-align: center;
+  line-height: 1.5em;
+}
+.cart-text button {
+  width: 12em;
+  padding: 0.5em;
+}
+.cart-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
 }
