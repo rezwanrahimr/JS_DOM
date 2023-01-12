@@ -83,3 +83,16 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
 }
+/* selected-v */
+.selected-v {
+  color: wheat;
+  text-align: center;
+}
+.player-list {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+.player-list li {
+  line-height: 2.5em;
+}
