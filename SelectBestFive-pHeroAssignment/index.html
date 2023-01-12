@@ -74,11 +74,22 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="calculate-section">
             <div class="selected-v">
-                <h3>Selected - V</h3>
+                <h2>Selected - V</h2>
                 <ol class="player-list"></ol>
-
+            </div>
+            <div class="playerSalary">
+                <h2>Budget</h2>
+                Per Player: <input type="number" name="player" id="perPlayer"> <br>
+                <button onclick="Calculate()">Calculate</button>
+            </div>
+            <div class="playerAndManager">
+                <p>Player Expenses: $<span id="playerExpenses"></span></p>
+                Manager: <input type="number" name="manager" id="manager"><br>
+                Coach: <input type="number" name="Coach" id="Coach">
+                <button onclick="calculateTotal()">Calculate Total</button>
+                <p>Total: <span id="total"></span></p>
             </div>
         </div>
     </main>

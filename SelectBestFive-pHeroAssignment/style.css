@@ -84,8 +84,11 @@ body {
   grid-gap: 1em;
 }
 /* selected-v */
+.calculate-section {
+  background: rgb(56, 52, 52);
+}
 .selected-v {
-  color: wheat;
+  color: white;
   text-align: center;
 }
 .player-list {
@@ -95,4 +98,22 @@ body {
 }
 .player-list li {
   line-height: 2.5em;
+}
+.playerSalary {
+  text-align: center;
+  color: white;
+}
+.playerSalary button {
+  padding: 0.5em 3em;
+  margin: 1em 0;
+}
+#perPlayer,
+#manager,
+#Coach {
+  padding: 0.5em 0;
+  margin-top: 2em;
+}
+.playerAndManager {
+  text-align: center;
+  color: white;
 }
