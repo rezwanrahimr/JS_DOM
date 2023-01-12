@@ -1,14 +1,55 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 :root {
-  --body-color: var(#000000);
+  --body-color: #0d0d0d;
 }
 body {
-  background: var(--body-color);
+  /* background-color: var(--body-color); */
 }
+
 .header {
   width: auto;
   height: 30em;
+  position: relative;
+  background: #000000;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.header-text {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 42em;
+}
+.header-text img {
+  max-width: 100%;
+}
+.header-text p {
+  margin-top: 1em;
+  color: white;
+}
+.H-player1 {
+  position: absolute;
+  max-width: 100%;
+  bottom: 0;
+}
+.H-player2 {
+  max-width: 100%;
+  position: absolute;
+  right: 1.5em;
+  bottom: 13em;
+}
+.H-line {
+  position: absolute;
+  right: 15em;
+  bottom: 13em;
+}
+.H-football {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
 }
