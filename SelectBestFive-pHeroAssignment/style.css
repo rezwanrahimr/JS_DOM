@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --body-color: var(#000000);
+}
+body {
+  background: var(--body-color);
+}
+.header {
+  width: auto;
+  height: 30em;
+}
